@@ -69,27 +69,27 @@ pip3 install -r requirements.txt
 
    查看8080端口加入的节点：
 
-   ```json
+   ```url
    浏览器访问：localhost:8080/peers
    [{'ip': 'localhost', 'port': 8081}]
    ```
    查看8081端口加入的节点
    
-   ```json
+   ```url
    浏览器访问：localhost:8080/peers
    返回：[{'ip': 'localhost', 'port': 8081}]
    ```
    
    查看8080端口块数据
    
-   ```json
+   ```url
    浏览器访问：localhost:8080/chain
    返回：{"length": 2, "chain": [{"index": 0, "transactions": [], "timestamp": 1674557968.4578717, "previous_hash": "0", "nonce": 0, "hash": "1857515eb50c52193140126226825e0a8203488afa70b2b21a407cb45c0e4173"}, {"index": 1, "transactions": [{"author": "hdk", "content": "hhhhhh", "timestamp": 1674557970.5027435}], "timestamp": 1674558249.506999, "previous_hash": "1857515eb50c52193140126226825e0a8203488afa70b2b21a407cb45c0e4173", "nonce": 761, "hash": "00006de85025cab6ee8bc33dc34c7dad21489c8c1363836113766e6eb1226d07"}]}
    ```
    
    查看8081端口块数据
    
-   ```json
+   ```url
    浏览器访问：localhost:8081/chain
    返回：{"length": 2, "chain": [{"index": 0, "transactions": [], "timestamp": 1674557968.4578717, "previous_hash": "0", "nonce": 0, "hash": "1857515eb50c52193140126226825e0a8203488afa70b2b21a407cb45c0e4173"}, {"index": 1, "transactions": [{"author": "hdk", "content": "hhhhhh", "timestamp": 1674557970.5027435}], "timestamp": 1674558249.506999, "previous_hash": "1857515eb50c52193140126226825e0a8203488afa70b2b21a407cb45c0e4173", "nonce": 761, "hash": "00006de85025cab6ee8bc33dc34c7dad21489c8c1363836113766e6eb1226d07"}]}
    ```
