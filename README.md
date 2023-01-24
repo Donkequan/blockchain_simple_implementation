@@ -73,6 +73,7 @@ pip3 install -r requirements.txt
    浏览器访问：localhost:8080/peers
    [{'ip': 'localhost', 'port': 8081}]
    ```
+   
    查看8081端口加入的节点
    
    ```url
@@ -102,6 +103,6 @@ pip3 install -r requirements.txt
 
 Ref：
 
-https://github.com/OpensourceBooks/blockchain
+- https://github.com/OpensourceBooks/blockchain
 
-https://github.com/satwikkansal/python_blockchain_app/tree/ibm_blockchain_post
+- https://github.com/satwikkansal/python_blockchain_app/tree/ibm_blockchain_post
